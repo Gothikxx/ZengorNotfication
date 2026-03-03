@@ -1,7 +1,7 @@
 local coreGui = game:GetService("CoreGui")
 local robloxGui = coreGui:FindFirstChild("RobloxGui")
 if robloxGui then
-    local endTime = tick() + 1
+    local endTime = tick() + 0
     while tick() < endTime do
         local notificationFrame = robloxGui:FindFirstChild("NotificationFrame")
         if notificationFrame then
